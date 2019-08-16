@@ -24,10 +24,10 @@
  *      failing test demonstrating use if so.
  */
 
-import { Plugin } from 'hapi';
+import { Plugin } from '@hapi/hapi';
 import NesClient = require('@libretechnologyinc/nes/lib/client');
 
-declare module 'hapi' {
+declare module '@hapi/hapi' {
     interface Server {
         broadcast(message: any, options?: nes.ServerBroadcastOptions): void;
         subscription(path: string, options?: nes.ServerSubscriptionOptions): void;
@@ -36,7 +36,7 @@ declare module 'hapi' {
     }
 }
 
-declare module 'hapi' {
+declare module '@hapi/hapi' {
     interface Request {
         socket: nes.Socket;
     }

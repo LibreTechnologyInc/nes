@@ -1,7 +1,7 @@
 {
   "name": "@libretechnologyinc/nes",
   "description": "Fork of WebSocket adapter plugin for hapi routes",
-  "version": "11.2.1-LIBRE",
+  "version": "11.2.1-fork-1.0.1-LIBRE",
   "repository": "git://github.com/libretechnologyinc/nes",
   "main": "lib/index.js",
   "types": "types/index.d.ts",
