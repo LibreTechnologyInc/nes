@@ -1,7 +1,7 @@
 {
   "name": "@libretechnologyinc/nes",
   "description": "Fork of WebSocket adapter plugin for hapi routes",
-  "version": "11.2.9-LIBRE",
+  "version": "11.2.1-LIBRE",
   "repository": "git://github.com/libretechnologyinc/nes",
   "main": "lib/index.js",
   "types": "types/index.d.ts",
@@ -11,21 +11,21 @@
     "websocket"
   ],
   "dependencies": {
-    "boom": "7.x.x",
-    "bounce": "1.x.x",
-    "call": "5.x.x",
-    "cryptiles": "4.x.x",
-    "hoek": "5.x.x",
-    "iron": "5.x.x",
-    "joi": "13.x.x",
-    "teamwork": "3.x.x",
+    "@hapi/boom": "7.x.x",
+    "@hapi/bounce": "1.x.x",
+    "@hapi/call": "5.x.x",
+    "@hapi/cryptiles": "4.x.x",
+    "@hapi/hoek": "8.x.x",
+    "@hapi/iron": "5.x.x",
+    "@hapi/joi": "15.x.x",
+    "@hapi/teamwork": "3.x.x",
     "ws": "6.x.x"
   },
   "devDependencies": {
     "@types/hapi": "17.x.x",
-    "code": "5.x.x",
-    "hapi": "17.x.x",
-    "lab": "17.x.x",
+    "@hapi/code": "6.x.x",
+    "@hapi/hapi": "18.x.x",
+    "@hapi/lab": "20.x.x",
     "mkdirp": "0.5.1"
   },
   "scripts": {
